@@ -18,6 +18,7 @@ const App = () =>{
     <>
     <Header1/>
     <Intro/>
+    <h1 style={{color:"white"}}>NUESTROS SERVICIOS</h1>
       {data.map(service =>
       <Services1
         img = {service.img}
