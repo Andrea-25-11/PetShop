@@ -1,0 +1,53 @@
+/* HEADER 1 */
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bde3e5;
+  font-family: "Chelsea Market";
+  color: #ffffff;
+}
+
+.logoHeader1 {
+  width: 60%;
+}
+.pawHeader1 {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+#header2 {
+  display: none;
+}
+
+/* HEADER 2 */
+
+@media only screen and (min-width: 1024px) {
+  .header1 {
+    display: none;
+  }
+
+  #header2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bde3e5;
+    font-family: "Chelsea Market";
+    color: #ffffff;
+  }
+
+  .logoHeader2 {
+    width: 80px;
+  }
+  .navBar2 {
+    display: flex;
+    list-style-type: none;
+  }
+  .liNavBar2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    padding: 6px;
+    border-right: 2px solid #ffffff;
+  }
+} ;

@@ -1,0 +1,41 @@
+body{
+    font-size: 10px;
+}
+
+.introPpal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  margin: 1.2rem 0;
+  padding: 0.5rem;
+}
+
+.introPpal p {
+    text-align: center;
+    padding: 0.3rem;
+}
+.imgIntro {
+  border-radius: 1rem;
+  width: 40%;
+  height: 30%;
+  margin-right: 0.4rem;
+}
+
+
+@media screen and (min-width:429px) and (max-width:743px) {
+    body{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:744px) and (max-width:1439px) {
+    body{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1440px) {
+    body{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: 'Chelsea Market', 'Flamenco', cursive;;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #3C6B80;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}

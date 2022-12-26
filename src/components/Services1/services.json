@@ -1,0 +1,32 @@
+[
+    {
+        "key": 1 ,
+        "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
+        "text" : "VETERINARIA"
+},
+{
+    "key": 2 ,
+    "img": "https://drive.google.com/uc?export=view&id=1wg4Tf9ov64TjrmhFmMfs1y86105tX26T",
+    "text" : "BAÑO Y PELUQUERÍA"
+},
+{
+    "key": 3 ,
+    "img": "https://drive.google.com/uc?export=view&id=14UXWRMdZ3kpdrx9jpiuCCfuxjboLG4Wh",
+    "text" : "HOTEL FELINO"
+},
+{
+    "key": 4 ,
+    "img": "https://drive.google.com/uc?export=view&id=107PXnh_qNTFuAUS8_rTt2FCseGBnB5CG",
+    "text" : "VACUNACIÓN"
+},
+{
+    "key": 5 ,
+    "img": "https://drive.google.com/uc?export=view&id=14UXWRMdZ3kpdrx9jpiuCCfuxjboLG4Wh",
+    "text" : "LABORATORIO CLÍNICO"
+},
+{
+    "key": 6 ,
+    "img": "https://drive.google.com/uc?export=view&id=1yg31pT5AUQypmTLy5dIPAyjY1RMedlaA",
+    "text" : "IDENTIFICADOR DE MASCOTAS"
+}
+]
