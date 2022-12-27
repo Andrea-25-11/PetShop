@@ -1,11 +1,9 @@
 import 'remixicon/fonts/remixicon.css';
-import {Header1} from '../Header1/Header1';
+import Header1 from '../Header1/Header1';
 import {Intro} from "../Intro/Intro";
 import {Services1} from "../Services1/Services1";
-import {Services2} from "../Services2/Services2";
 import {Brands} from "../Brands/Brands";
 import {Contact} from "../Contact/Contact";
-import {Hamburguer} from "../Hamburguer/Hamburguer";
 import {IntroServices} from "../IntroServices/IntroServices";
 import {Form} from "../Form/Form";
 import {Footer} from "../Footer/Footer";

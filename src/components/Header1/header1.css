@@ -1,53 +1,84 @@
-/* HEADER 1 */
-.header1 {
+.headerContainer{
+  background-color: #BDE3E5;
   display: flex;
   justify-content: space-between;
-  background-color: #bde3e5;
-  font-family: "Chelsea Market";
-  color: #ffffff;
+  align-items: center;
 }
-
-.logoHeader1 {
+.logo {
   width: 60%;
 }
-.pawHeader1 {
+
+.logoPaw{
   width: 40px;
-  height: 40px;
-  padding: 8px;
+  margin: 5px 10px;
 }
 
-#header2 {
+.Cabecera {
+  width: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  background-color: #3C6B80;
+}
+
+.Cabecera-button {
   display: none;
+  cursor: pointer;
+  background-color: #BDE3E5;
+  border: none;
 }
 
-/* HEADER 2 */
-
-@media only screen and (min-width: 1024px) {
-  .header1 {
-    display: none;
+.Cabecera-ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Cabecera-li {
+  margin: 0 1rem;
+  list-style: none;
+}
+.Cabecera-li > .href {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
   }
-
-  #header2 {
+@media screen and (max-width: 480px) {
+  .Cabecera-button {
     display: flex;
-    justify-content: space-between;
-    background-color: #bde3e5;
-    font-family: "Chelsea Market";
-    color: #ffffff;
+    justify-content: flex-start;
+    background: center;
+    outline: none;
+    border: none;
   }
-
-  .logoHeader2 {
-    width: 80px;
-  }
-  .navBar2 {
+  .Cabecera-nav {
+    width: 100%;
     display: flex;
-    list-style-type: none;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
   }
-  .liNavBar2 {
-    display: flex;
+  .Cabecera-nav.isActive {
+    height: 92vh;
+    opacity: 1;
+  }
+  .Cabecera-ul {
     flex-direction: column;
-    text-align: center;
-    margin: 5px;
-    padding: 6px;
-    border-right: 2px solid #ffffff;
   }
-} ;
+  .Cabecera-li {
+    list-style: none;
+    margin: 15px;
+
+  }
+  .Cabecera-li > .href {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+  }
+}

@@ -1,24 +1,55 @@
-import React from "react";
+import { React, useState } from "react";
 import logo from "./img/logo.png";  
 import patita from "./img/patita.png";  
 import "./header1.css";
+import { Link } from "react-router-dom";
 
-export function Header1() {
+const Header1 = () => {
+    const [menu, setMenu] = useState(false);
+  
+    const toggleMenu = () => {
+      setMenu(!menu);           
+    };
+  
     return (
     <>
-    <header className="header1">
-        <img src={logo} alt="" className="logoHeader1"/>
-        <img src={patita} alt="" className="pawHeader1"/>
-    </header>
-    <header className="header2" id="header2">
-        <img className="logoHeader1"src={logo} alt="" />
-        <ul className="navBar2">
-            <li className="liNavBar2"><i class="ri-home-4-line"></i>INICIO</li>
-            <li className="liNavBar2"><i class="ri-hand-heart-line"></i>SERVICIOS</li>
-            <li className="liNavBar2"><i class="ri-search-eye-line"></i>MARCAS ALIADAS</li>
-            <li className="liNavBar2"><i class="ri-chat-3-line"></i>CONTÁCTANOS</li>
+    <header className="Cabecera">
+      <div className="headerContainer">
+        <img className="logo" src={logo} alt="logo de la microempesa" />
+        <div className="iconNav">
+          <button onClick={toggleMenu} className="Cabecera-button">
+            <img className="logoPaw" src={patita} alt="logo de la microempesa"/>
+          </button>
+        </div>
+      </div>
+
+      <nav className={`Cabecera-nav ${menu ? "isActive" : ""}`}>
+        <ul className="Cabecera-ul">
+          <li className="Cabecera-li">
+            <Link to="/home" className="href">
+              INICIO
+            </Link>
+          </li>
+          <li className="Cabecera-li">
+            <Link to="/services" className="href">
+              SERVICIOS
+            </Link>
+          </li>
+          <li className="Cabecera-li">
+            <Link to="/Brands" className="href">
+              MARCAS ALIADAS
+            </Link>
+          </li>
+          <li className="Cabecera-li">
+            <Link to="/Contact" className="href">
+              CONTACTANOS
+            </Link>
+          </li>
         </ul>
+      </nav>
     </header>
-</>
+    </>
     );
 };
+
+export default Header1;
