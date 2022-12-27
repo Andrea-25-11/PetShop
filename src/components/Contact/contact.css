@@ -1,0 +1,29 @@
+.contactUs{
+    color: white;
+    font-size: 18px;
+}
+
+.contactUs li{
+    list-style-type: none;
+}
+
+.divContact li{
+    margin: 1rem;
+}
+.divContact li i{
+    margin-right: .5rem;
+}
+
+.ulSocialMedia{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.ulSocialMedia li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
