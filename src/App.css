@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Flamenco&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Flamenco', 'Chelsea Market';

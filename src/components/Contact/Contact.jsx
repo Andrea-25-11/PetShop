@@ -5,7 +5,7 @@ export function Contact() {
     return (
     <div className="contactUs">
         <div className="divContact">
-            <h1 style={{ color: "white", textAlign: "center", margin: "2rem", fontSize: "20px"}}>
+            <h1 style={{ color: "white", textAlign: "center", margin: "2rem", fontSize: "1.3rem"}}>
             DONDE ENCONTRARNOS
             </h1>
             <ul className="ulContact">
@@ -24,17 +24,17 @@ export function Contact() {
             </ul>
         </div>
         <div className="divRedes">
-            <h1 style={{ color: "white", textAlign: "center", margin: "2rem", fontSize: "20px"}}>
+            <h1 style={{ color: "white", textAlign: "center", marginTop: "2rem", fontSize: "1.3rem"}}>
             CONOCE NUESTRAS REDES SOCIALES
             </h1>
             <ul className="ulSocialMedia">
                 <li className="liContact">
                     <img src="https://drive.google.com/uc?export=view&id=1cwqSGLf3P0p05fF_khzLt9oVd1d1beWW" style= {{width:"40px"}} alt="" />
-                    INSTAGRAM
+                    Instagram
                 </li>
                 <li className="liContact">
                     <img src="https://drive.google.com/uc?export=view&id=1XQ-SCzsytx5ha4wcQfKBlh7xmZGoseid" style= {{width:"40px"}} alt="" />
-                    FACEBOOK
+                    Facebook
                 </li>
             </ul>
         </div>

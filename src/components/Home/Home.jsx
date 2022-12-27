@@ -16,14 +16,14 @@ const Home = _ => {
     <>
         <Header1/>
         <Intro/>
-        <h1 style={{color:"white", textAlign:"center" , margin:"2rem", fontSize: "1.8rem"}}>NUESTROS SERVICIOS</h1>
+        <h1 style={{color:"white", textAlign:"center" , margin:"2rem", fontSize: "1.3rem"}}>NUESTROS SERVICIOS</h1>
         {data.map(service =>
         <Services1
             img = {service.img}
             text= {service.text}
         />
         )}
-        <h1 style={{color:"white",  textAlign:"center" , margin:"1.8rem"}}>MARCAS ALIADAS</h1>
+        <h1 style={{color:"white",  textAlign:"center" , margin:"2rem", fontSize: "1.3rem"}}>MARCAS ALIADAS</h1>
         <Brands/>
         <Contact/>
         <Footer/>

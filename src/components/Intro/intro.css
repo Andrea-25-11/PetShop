@@ -8,18 +8,18 @@ body{
   align-items: center;
   background-color: whitesmoke;
   margin: 1.2rem 0;
-  padding: 0.5rem;
 }
 
 .introPpal p {
     text-align: center;
-    padding: 0.3rem;
+    margin: 1rem 0.4rem;
+    font-size: .7rem;
 }
 .imgIntro {
-  border-radius: 1rem;
-  width: 50%;
-  height: 30%;
-  margin-right: 0.4rem;
+  width: 50%;   
+  height: 90%;
+
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 
