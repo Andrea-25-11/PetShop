@@ -1,7 +1,6 @@
 import './App.css';
 import 'remixicon/fonts/remixicon.css';
 import { Header1 } from './components/Header1/Header1';
-import { Header2 } from './components/Header2/Header2';
 import {Intro} from "./components/Intro/Intro";
 import {Services1} from "./components/Services1/Services1";
 import {Services2} from "./components/Services2/Services2";
@@ -16,15 +15,18 @@ import data from "./components/Services1/services.json"
 const App = () =>{
   return (
     <>
-    <Header1/>
-    <Intro/>
-    <h1 style={{color:"white"}}>NUESTROS SERVICIOS</h1>
+      <Header1/>
+      <Intro/>
+      <h1 style={{color:"white", textAlign:"center" , margin:"2rem"}}>NUESTROS SERVICIOS</h1>
       {data.map(service =>
       <Services1
-        img = {service.img}
-        text= {service.text}
+          img = {service.img}
+          text= {service.text}
       />
-    )}
+      )}
+      <h1 style={{color:"white",  textAlign:"center" , margin:"2rem"}}>MARCAS ALIADAS</h1>
+      <Brands/>
+      <Contact/>
     </>
   )
 };
