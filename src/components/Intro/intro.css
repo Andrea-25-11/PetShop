@@ -23,19 +23,8 @@ body{
 }
 
 
-@media screen and (min-width:429px) and (max-width:743px) {
-    body{
-        font-size: 15px;
-    }
-}
-
-@media screen and (min-width:744px) and (max-width:1439px) {
-    body{
-        font-size: 20px;
-    }
-}
-@media screen and (min-width:1440px) {
-    body{
-        font-size: 30px;
+@media (min-width:481px) {
+    .introPpal p {
+        font-size: 1.1rem;
     }
 }

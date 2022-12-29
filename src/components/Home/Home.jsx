@@ -1,4 +1,5 @@
 import 'remixicon/fonts/remixicon.css';
+import "./home.css";
 import Header1 from '../Header1/Header1';
 import {Intro} from "../Intro/Intro";
 import {Services1} from "../Services1/Services1";
@@ -14,14 +15,14 @@ const Home = _ => {
     <>
         <Header1/>
         <Intro/>
-        <h1 style={{color:"white", textAlign:"center" , margin:"2rem", fontSize: "1.3rem"}}>NUESTROS SERVICIOS</h1>
+        <h1>NUESTROS SERVICIOS</h1>
         {data.map(service =>
         <Services1
             img = {service.img}
             text= {service.text}
         />
         )}
-        <h1 style={{color:"white",  textAlign:"center" , margin:"2rem", fontSize: "1.3rem"}}>MARCAS ALIADAS</h1>
+        <h1>MARCAS ALIADAS</h1>
         <Brands/>
         <Contact/>
         <Footer/>

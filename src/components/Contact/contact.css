@@ -7,6 +7,12 @@
     list-style-type: none;
 }
 
+.divContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .divContact li{
     margin: 1rem;
 }
@@ -31,3 +37,11 @@
 .liContact img{
     margin: 1rem;
 }
+
+@media (min-width:481px) {
+    .contactUs{
+        color: white;
+        font-size: 20px;
+    }
+    
+  }
