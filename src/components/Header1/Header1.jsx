@@ -45,6 +45,11 @@ const Header1 = () => {
               CONTACTANOS
             </Link>
           </li>
+          <li className="Cabecera-li">
+            <Link to="/cart" className="href">
+              <img style={{width:"40px"}}src="https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS" alt="" />
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
