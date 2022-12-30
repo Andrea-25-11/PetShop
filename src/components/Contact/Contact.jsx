@@ -28,13 +28,13 @@ export function Contact() {
             CONOCE NUESTRAS REDES SOCIALES
             </h1>
             <ul className="ulSocialMedia">
-                <li className="liContact">
+                <li className="liContact"><a className="linkRedes"href="https://www.instagram.com/gatosyperros_royalpet/">
                     <img className="logoRedes" src="https://drive.google.com/uc?export=view&id=1cwqSGLf3P0p05fF_khzLt9oVd1d1beWW" alt="" />
-                    Instagram
+                    Facebook</a>
                 </li>
-                <li className="liContact">
+                <li className="liContact"><a className="linkRedes" href="">
                     <img className="logoRedes" src="https://drive.google.com/uc?export=view&id=1XQ-SCzsytx5ha4wcQfKBlh7xmZGoseid" alt="" />
-                    Facebook
+                    Instagram</a>
                 </li>
             </ul>
         </div>

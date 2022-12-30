@@ -6,10 +6,6 @@
         margin:1rem;
         font-size: 1.3rem;
     }
-    .cardServices{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 }
 
 
@@ -21,18 +17,10 @@
         font-size: 1.5rem;
     }
     
-    .cardServices{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 @media (min-width:1200px) {
     h1{
         font-size: 1.6rem;
-    }
-    .cardServices{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }

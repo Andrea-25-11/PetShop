@@ -40,6 +40,10 @@
 .logoRedes{
     width: 40px;
 }
+a.linkRedes {
+    text-decoration: none;
+    color: white;
+}
 @media (min-width:481px) {
     .contactUs{
         display: grid;

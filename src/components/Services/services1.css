@@ -1,3 +1,5 @@
+/* ESTILOS CEL  */
+
 .card{
     width: 90%;
     margin: 1rem auto 0 auto;
@@ -36,9 +38,51 @@
     color: white;
     font-size: 1rem;
   }
-
-
-
+/* ----ESTILOS PAGINA PRODUCTOS CEL--- */
+.introServicios{
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.cardServices{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.cardPage{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+.cardPage > .imgPage{
+  width: 100%;
+  height: 10rem;
+  object-fit: contain;
+  opacity: 1;
+  border-radius: 20px;
+}
+.cardPage h2{
+  color: black;
+  text-align: center;
+  margin: .5rem;
+  font-size: 1rem;
+}
+.priceDescription{
+  font-size: 23px;
+  color: black;
+  font-weight: bold;
+}
+.iconPage{
+  text-align: right;
+}
+.pPage{
+  text-align: justify;
+  font-size: 1rem;
+}
+.iconPage button{
+  border: solid 1px blue;
+  border-radius: 50px;
+}
   @media (min-width:769px){
     .card > .imgServices{
       height: 16rem;
@@ -69,9 +113,31 @@
       color: white;
       font-size: 1.6rem;
     }
+    .pPage{
+      text-align: justify;
+      font-size: .7rem;
+    }
+    .cardServices{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .introServicios{
+      font-size: 1.3rem;
+    }
+    .pPage{
+      text-align: justify;
+      font-size: 1.3rem;
+    }
   }
 
 @media (min-width:1023px) {
+  .introServicios{
+    font-size: 1.5rem;
+  }
+  .pPage{
+    text-align: justify;
+    font-size: 1.3rem;
+  }
   .card > .imgServices{
     height: 20rem;
     opacity: .7;
@@ -101,4 +167,12 @@
     color: white;
     font-size: 1.6rem;
   }
+  .pPage{
+  text-align: justify;
+  font-size: 1rem;
+}
+.cardServices{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 }

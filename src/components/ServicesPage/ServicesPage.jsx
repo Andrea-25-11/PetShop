@@ -20,17 +20,17 @@ const ServicesPage = _ => {
     <>
         <Header1/>
         <h1>NUESTROS SERVICIOS</h1>
-        <p className='introServicios'>Somos una tienda de mascotas local que se especializa en proporcionar todo lo que necesita para cuidar a su mascota. Ofrecemos una amplia variedad de productos de alta calidad, como comida, juguetes, ropa y accesorios para perros y gatos. Nuestro personal amable y bien informado está siempre dispuesto a ayudarle a encontrar lo que necesita y a ofrecer consejos y recomendaciones para el cuidado adecuado de su mascota. Nos sentimos muy afortunados de poder trabajar con mascotas todos los días y esperamos tener la oportunidad de conocer a tu mascota pronto. ¡Bienvenido a nuestra tienda!</p>
+        <p className='introServicios'>Somos una tienda de mascotas local que se especializa en proporcionar todo lo que necesita para cuidar a su mascota.Nuestro personal amable y bien informado está siempre dispuesto a ayudarle a encontrar lo que necesita y a ofrecer consejos y recomendaciones para el cuidado adecuado de su mascota. Nos sentimos muy afortunados de poder trabajar con mascotas todos los días y esperamos tener la oportunidad de conocer a tu mascota pronto. ¡Bienvenido a nuestra tienda!</p>
         <section className='cardServices'>
         {service.map(service =>
-        
-        <div className="card" key={service.id}>
-            <img src={service.img} className="imgServices"alt="Imagen de la tarjeta"/>
+        <div className="cardPage" key={service.id}>
+            <img src={service.img} className="imgPage"alt="Imagen de la tarjeta"/>
             <h2>{service.text}</h2>
-            <p className="holi">{service.description}</p>
-            <div>
+            <p className="pPage">{service.description}</p>
+            <div className="iconPage">
+                <p className='priceDescription'>{service.price}</p>
                 <button onClick={()=>dispatch({type:'ADD',payload:service})}>
-                    <img style = {{width:"40px", height:"40px"}}src={service.icon} className="d"alt="" />    
+                    <img style = {{width:"40px", height:"40px"}}src={service.icon} alt="" />    
                 </button>
             </div>
         </div>
