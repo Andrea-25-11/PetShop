@@ -17,7 +17,8 @@ body{
 }
 .imgIntro {
   width: 30%;   
-  height: 90%;
+  height: 100%;
+  object-fit: cover;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
