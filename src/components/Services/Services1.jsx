@@ -17,7 +17,6 @@ export const Services1 = (props) => {
 
 }
 
-
 export const Services2 = (props) => {
     //Reduce
     const cart = useSelector((state)=>state)

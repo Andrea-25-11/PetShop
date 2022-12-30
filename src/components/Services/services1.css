@@ -83,7 +83,7 @@
   border: solid 1px blue;
   border-radius: 50px;
 }
-  @media (min-width:769px){
+  @media (min-width:765px){
     .card > .imgServices{
       height: 16rem;
       opacity: .7;
