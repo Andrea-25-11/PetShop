@@ -12,6 +12,10 @@ const CartShop = _ => {
     const cart = useSelector((state)=>state)
     console.log(cart)
     const dispatch = useDispatch()
+    const addition = (acc, currentvalue) => {
+        return acc + currentvalue.price * currentvalue.quantity;
+      };
+     const total = cart.reduce(addition, 0);
     return (
     <>
         <Header1/>
@@ -20,18 +24,45 @@ const CartShop = _ => {
         <section className='cardServices'>
         {cart.map(service =>
         <div className="cardPage" key={service.id}>
-            <img src={service.img} className="imgPage"alt="Imagen de la tarjeta"/>
-            <h2>{service.text}</h2>
-            <p className="pPage">{service.description}</p>
-            <div className="iconPage">
-                <p className='priceDescription'>{service.price}</p>
-                <button onClick={()=>dispatch({type:'ADD',payload:service})}>
-                    <img style = {{width:"40px", height:"40px"}}src={service.icon} alt="" />    
-                </button>
+            <div className='finalList'>
+                <div>
+                    <img src={service.img} className="imgPag"alt="Imagen de la tarjeta"/>
+                </div>
+                <p className="pPag">{service.description}</p>
+                <div className="">
+                    <h2 className='h2Cart'>{service.text}</h2>
+
+                    <button className='cantidad'>
+                    <i onClick={()=>dispatch({type: 'INCREASE',payload: service })} className="ri-add-box-line"></i>
+                    </button>
+                    <button className='cantidad'>
+                    <i onClick={()=> {
+                                        if (service.quantity > 1){
+                                            dispatch({type: 'DECREASE', payload: service })
+                                        } else{
+                                            dispatch({type: 'REMOVE', payload: service })
+                                        }
+                                        }} 
+                                        className="ri-subtract-line"></i>
+                    </button>
+
+                    <button>
+                        <i className="ri-delete-bin-line" onClick={() => dispatch({ type: 'REMOVE', payload: service })}></i>
+                    </button>
+                    <p className='priceDescriptio'>{service.price * service.quantity}</p>
+                    <p className='quantity' >{service.quantity}</p>
+                    <button className="buttonDisplay"onClick={()=>dispatch({type:'ADD',payload:service})}>
+                        <img style = {{width:"40px", height:"40px"}}src={service.icon} alt="" />    
+                    </button>
+                    <button className='buttonWazza'>Contactar por Whats'App</button>
+                </div>
             </div>
         </div>
         )}
         </section>
+        {total > 0 && 
+        <h2>total:{total}
+        </h2>}
         <Footer/>
     </>
 )

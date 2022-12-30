@@ -5,7 +5,8 @@
         "text" : "VETERINARIA",
         "description" : "La veterinaria es un servicio dedicado a la atención y cuidado de la salud de los animales de compañía. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas.Nuestro objetivo es brindar atención de calidad a nuestros pacientes y a sus dueños, y ayudar a mantener la salud y el bienestar de sus mascota. El precio de la consulta de tu peludo es de $50.000 recuerda pregunta por más información ya que los precios pueden variar",
         "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS",
-        "price" : "50.000"
+        "price" : 50000,
+        "quantity": 1
 },
 {
     "id": 2 ,
@@ -13,7 +14,8 @@
     "text" : "BAÑO Y PELUQUERÍA",
     "description" : "El servicio de grooming de mascotas es un lugar donde se proporcionan cuidados especializados para la higiene y el bienestar de las mascotas. Contamos con profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas, para mantener la salud y la belleza de su mascota. Ofrecemos baños y peinados personalizados, corte de uñas, limpieza de oídos y tratamientos de belleza para diferentes tipos de mascotas.Manejamos precios desde $40.000 pero el valor depende en mayor medida del tamaño y cantidad de pelo de tu peludo,para agendar tuc ita puedes abonar 10.000 los cuales serán abonados al valor del baño o peluquería que escojas para tu peludo   ",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS",
-    "price": "10.000"
+    "price": 10000,
+    "quantity": 1
 },
 {
     "id": 3 ,
@@ -21,7 +23,8 @@
     "text" : "HOTEL FELINO",
     "description" : "El hotel felino es un servicio de alojamiento para gatos mientras sus dueños están de viaje o ausentes. Ofrecemos un ambiente cálido y acogedor para que los gatos se sientan como en casa, contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de gatos, que se encargan de proporcionar atención y cuidado personalizados para cada uno de nuestros huéspedes felinos.Nuestro objetivo es hacer que su gato se sienta cómodo y seguro durante su estancia en el hotel felino y proporcionarle a usted tranquilidad durante su ausencia. Por noche el valor establecido es de 35.000 pesos ",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS",
-    "price": "35.000"
+    "price": 35000,
+    "quantity": 1
 },
 {
     "id": 4 ,
@@ -29,7 +32,8 @@
     "text" : "VACUNACIÓN",
     "description" : "Mediante el servicio de vacunación de mascotas se proporcionan inmunizaciones esenciales para proteger a las mascotas de enfermedades graves y potencialmente mortales. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas, que se encargan de administrar las vacunas necesarias de acuerdo con las recomendaciones de los expertos en la salud animal. Recuerda que cada tipo de exámen es diferente y por ende deberás solicitar información adicional frente a los valores.",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS",
-    "price":"50.000"
+    "price":50000,
+    "quantity": 1
 },
 {
     "id": 5 ,
@@ -37,7 +41,8 @@
     "text" : "LABORATORIO CLÍNICO",
     "description" : "El servicio de laboratorio clínico de mascotas es un lugar donde se realizan pruebas de laboratorio para detectar y diagnosticar enfermedades en las mascotas. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas, que se encargan de recoger y procesar muestras de tejidos y fluidos corporales para su análisis en el laboratorio. Recuerda que cada tipo de exámen es diferente y por ende deberás solicitar información adicional frente a los valores",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS",
-    "price" : "50.000"
+    "price" : 50000,
+    "quantity": 1
 },
 {
     "id": 6 ,
@@ -45,6 +50,7 @@
     "text" : "IDENTIFICADOR DE MASCOTAS",
     "description" : "El servicio de identificación de mascotas es un lugar donde se proporcionan soluciones de identificación para ayudar a localizar y proteger a las mascotas en caso de pérdida o robo. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas, que se encargan de proporcionar diferentes opciones de identificación, como placas de identificación y etiquetas de identificación. Ofrecemos estos servicios para diferentes tipos de mascotas, incluyendo perros, gatos, caballos y otros animales de compañía. Además, proporcionamos asesoramiento y consejos sobre cómo proteger a su mascota en caso de pérdida o robo. Nuestro objetivo es ayudar a reunir a las mascotas con sus dueños y proteger su seguridad y bienestar.",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS",
-    "price" : "24.000"
+    "price" : 24000,
+    "quantity": 1
 }
 ]

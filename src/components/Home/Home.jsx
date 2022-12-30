@@ -7,6 +7,7 @@ import {Brands} from "../Brands/Brands";
 import {Contact} from "../Contact/Contact";
 import {Footer} from "../Footer/Footer";
 import data from "../Services/services.json";
+import {Link} from "react-router-dom";
 
 const Home = _ => {
     return (
@@ -14,14 +15,16 @@ const Home = _ => {
         <Header1/>
         <Intro/>
         <h1>NUESTROS SERVICIOS</h1>
-        <section className='cardServices'>
-        {data.map(service =>
-        <Services1
-            img = {service.img}
-            text= {service.text}
-        />
-        )}
+        <Link to="/services">
+            <section className='cardServices'>
+            {data.map(service =>
+            <Services1
+                img = {service.img}
+                text= {service.text}
+            />
+            )}
         </section>
+        </Link>
         <h1>MARCAS ALIADAS</h1>
         <Brands/>
         <Contact/>

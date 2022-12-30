@@ -36,14 +36,14 @@ const Header1 = () => {
             </Link>
           </li>
           <li className="Cabecera-li">
-            <Link to="/Brands" className="href">
+            <a href="#brandsLandpage">
               MARCAS ALIADAS
-            </Link>
+            </a>
           </li>
           <li className="Cabecera-li">
-            <Link to="/Contact" className="href">
+          <a href="#contactLandpage">
               CONTACTANOS
-            </Link>
+            </a>
           </li>
           <li className="Cabecera-li">
             <Link to="/cart" className="href">
