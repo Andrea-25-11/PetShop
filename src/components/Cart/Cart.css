@@ -2,6 +2,16 @@
     width: 40%;
     background-color: white;
 }
+.totalServ{
+    padding: .8rem 3rem;
+    background-color: rgb(255, 255, 255);
+    font-family: "Chelsea Market";
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
 .imgPag{
     width: 70%;
     margin: 1rem;
@@ -24,21 +34,32 @@
 }
 .priceDescriptio{
     font-size: 2rem;
-}
-.h2Cart{
-    font-size: 5rem;
+    text-align: center;
 }
 .cantidad{
     background-color: #3C6B80;
     display: inline-flex;
+    margin: .3rem;
     justify-content: center;
     border-radius: 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .buttonWazza{
     border-radius: 10px;
-    padding: .3rem;
-    margin: .4rem;
-    background-color: #3C6B80;
+    border: none;
+    padding: .8rem 3rem;
+    margin: auto;
+    background-color: white;
+    font-family: "Chelsea Market";
+    font-size: .9rem;
+    display: flex;
+    margin-top: 1rem;
+}
+.buttonWazza:hover{
+    border-radius: 10px;   
+    transition: all .4s;
+    background-color: white;
+    font-family: "Chelsea Market";
+    font-size: 1rem;
 }

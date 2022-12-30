@@ -83,6 +83,11 @@
   border: solid 1px blue;
   border-radius: 50px;
 }
+.ButtonShop:hover{
+  transform: scale(.8);
+  transition: all .4s;
+  cursor: pointer;
+}
   @media (min-width:765px){
     .card > .imgServices{
       height: 16rem;

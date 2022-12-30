@@ -30,7 +30,7 @@ const ServicesPage = _ => {
             <div className="iconPage">
                 <p className='priceDescription'>{service.price}</p>
                 <button onClick={()=>dispatch({type:'ADD',payload:service})}>
-                    <img style = {{width:"40px", height:"40px"}}src={service.icon} alt="" />    
+                    <img className="ButtonShop" style = {{width:"40px", height:"40px"}}src={service.icon} alt="" />    
                 </button>
             </div>
         </div>

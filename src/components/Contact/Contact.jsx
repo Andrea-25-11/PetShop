@@ -28,7 +28,7 @@ export function Contact() {
             CONOCE NUESTRAS REDES SOCIALES
             </h1>
             <ul className="ulSocialMedia">
-                <li className="liContact"><a className="linkRedes"href="https://www.instagram.com/gatosyperros_royalpet/">
+                <li className="liContact"><a className="linkRedes"href="https://www.facebook.com/profile.php?id=100063556422698">
                     <img className="logoRedes" src="https://drive.google.com/uc?export=view&id=1cwqSGLf3P0p05fF_khzLt9oVd1d1beWW" alt="" />
                     Facebook</a>
                 </li>

@@ -36,12 +36,12 @@ const Header1 = () => {
             </Link>
           </li>
           <li className="Cabecera-li">
-            <a href="#brandsLandpage">
+            <a style={{textDecoration: "none", fontSize: "1.2rem", color: "rgb(15, 58, 83)"}} href="#brandsLandpage">
               MARCAS ALIADAS
             </a>
           </li>
           <li className="Cabecera-li">
-          <a href="#contactLandpage">
+          <a style={{textDecoration: "none", fontSize: "1.2rem", color: "rgb(15, 58, 83)"}} href="#contactLandpage">
               CONTACTANOS
             </a>
           </li>

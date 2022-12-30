@@ -5,6 +5,7 @@ import Header1 from '../Header1/Header1';
 // import { Services2 } from '../Services/Services1';
 import {Footer} from "../Footer/Footer";
 import {useSelector, useDispatch}from 'react-redux';
+import ReactWhatsapp from 'react-whatsapp';
 
 
 const CartShop = _ => {
@@ -20,7 +21,7 @@ const CartShop = _ => {
     <>
         <Header1/>
         <h1>NUESTROS SERVICIOS</h1>
-        <p className='introServicios'>Somos una tienda de mascotas local que se especializa en proporcionar todo lo que necesita para cuidar a su mascota.Nuestro personal amable y bien informado está siempre dispuesto a ayudarle a encontrar lo que necesita y a ofrecer consejos y recomendaciones para el cuidado adecuado de su mascota. Nos sentimos muy afortunados de poder trabajar con mascotas todos los días y esperamos tener la oportunidad de conocer a tu mascota pronto. ¡Bienvenido a nuestra tienda!</p>
+        <p className='introServicios'>!Bienvenido a tu carrito de compras! Aquí podrás ser redirigido a uno de nuestros agentes para atender tus cotizaciones y dudas. Recuerda que algunos de nuestros servicios varían en su valor dependiendo de las características de tu peludo! Por eso te invitamos a visitarnos en la Carrera 10 #134b-85. **Esto no es una pasarela de pago**</p>
         <section className='cardServices'>
         {cart.map(service =>
         <div className="cardPage" key={service.id}>
@@ -46,7 +47,7 @@ const CartShop = _ => {
                                         className="ri-subtract-line"></i>
                     </button>
 
-                    <button>
+                    <button className='cantidad'>
                         <i className="ri-delete-bin-line" onClick={() => dispatch({ type: 'REMOVE', payload: service })}></i>
                     </button>
                     <p className='priceDescriptio'>{service.price * service.quantity}</p>
@@ -54,15 +55,17 @@ const CartShop = _ => {
                     <button className="buttonDisplay"onClick={()=>dispatch({type:'ADD',payload:service})}>
                         <img style = {{width:"40px", height:"40px"}}src={service.icon} alt="" />    
                     </button>
-                    <button className='buttonWazza'>Contactar por Whats'App</button>
                 </div>
             </div>
         </div>
         )}
         </section>
         {total > 0 && 
-        <h2>total:{total}
+        <h2 className="totalServ">TOTAL: {total}
         </h2>}
+        <ReactWhatsapp className='buttonWazza' number="57-319-678-8028" message={`Hola!Quisiera cotizar el servicio de  ${cart.map((item) => 
+          item.quantity + " " + item.title 
+        )} para $${total}`} > Cotizar el servicio </ReactWhatsapp>
         <Footer/>
     </>
 )
