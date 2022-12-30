@@ -12,19 +12,35 @@ body{
 
 .introPpal p {
     text-align: center;
-    margin: 1rem 0.4rem;
+    padding: 1rem 0.4rem;
     font-size: .7rem;
 }
 .imgIntro {
-  width: 50%;   
+  width: 30%;   
   height: 90%;
-
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 
 @media (min-width:481px) {
     .introPpal p {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
+    .imgIntro {
+      width: 35%;   
+      height: 60%;
+      clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    }
+}
+
+@media (min-width: 1024px) {
+  .introPpal p {
+      font-size: 2rem;
+  }
+  .imgIntro {
+    width: 35%;   
+    height: 60%;
+  
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
 }

@@ -37,11 +37,29 @@
 .liContact img{
     margin: 1rem;
 }
-
+.logoRedes{
+    width: 40px;
+}
 @media (min-width:481px) {
     .contactUs{
-        color: white;
-        font-size: 20px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        margin: 2rem;
     }
     
-  }
+    .contactUs h1{
+        color:white;
+        text-align: center;
+        margin:2rem;
+        font-size: 2rem;
+    }
+    .divContact li{
+        font-size: 1.8rem;
+    }
+    .ulSocialMedia li{
+        font-size: 1.8rem;
+    }
+    .logoRedes{
+        width: 60px;
+    }
+}

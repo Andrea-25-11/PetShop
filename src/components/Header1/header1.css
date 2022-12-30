@@ -15,10 +15,11 @@
 
 .Cabecera {
   width: 100%;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
   color: white;
-  background-color: #3C6B80;
+  background-color: #BDE3E5;
 }
 
 .Cabecera-button {
@@ -33,6 +34,7 @@
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: center;
+  margin: 1.3rem;
 }
 .Cabecera-li {
   margin: 0 1rem;
@@ -40,13 +42,18 @@
 }
 .Cabecera-li > .href {
     text-decoration: none;
-    font-size: 2rem;
-    color: white;
+    font-size: 1.5rem;
+    color: rgb(15, 58, 83);
+
   }
 
 @media (max-width: 480px) {
   .logo{
     width: 30%;
+  }
+  .Cabecera{
+    display: flex;
+    flex-direction: column;
   }
   .Cabecera-button {
     display: flex;
@@ -81,7 +88,57 @@
   .Cabecera-li > .href {
     text-decoration: none;
     font-size: 1.5rem;
-    color: white;
+    color:rgb(15, 58, 83);
   }
 }
 
+@media (min-width: 481px) and (max-width: 1024px) {
+.headerContainer{
+  background-color: #BDE3E5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 70%;
+}
+
+.logoPaw{
+  width: 40px;
+  margin: 5px 10px;
+}
+
+.Cabecera {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  background-color: #BDE3E5;
+}
+
+.Cabecera-button {
+  display: none;
+  cursor: pointer;
+  background-color: #BDE3E5;
+  border: none;
+}
+
+.Cabecera-ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1.3rem;
+}
+.Cabecera-li {
+  margin: 0 1rem;
+  list-style: none;
+}
+.Cabecera-li > .href {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(15, 58, 83);
+
+  }
+}
