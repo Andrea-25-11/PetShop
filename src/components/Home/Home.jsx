@@ -2,12 +2,11 @@ import 'remixicon/fonts/remixicon.css';
 import "./home.css";
 import Header1 from '../Header1/Header1';
 import {Intro} from "../Intro/Intro";
-import {Services1} from "../Services1/Services1";
+import {Services1} from "../Services/Services1";
 import {Brands} from "../Brands/Brands";
 import {Contact} from "../Contact/Contact";
-import {Form} from "../Form/Form";
 import {Footer} from "../Footer/Footer";
-import data from "../Services1/services.json";
+import data from "../Services/services.json";
 
 const Home = _ => {
     return (

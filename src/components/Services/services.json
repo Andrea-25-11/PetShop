@@ -1,41 +1,41 @@
 [
     {
-        "key": 1 ,
+        "id": 1 ,
         "img": "https://drive.google.com/uc?export=view&id=1muMyUP_wJ-K3EAiaivGTZ-7-Zz3ZOAIk",
         "text" : "VETERINARIA",
         "description" : "La veterinaria es un servicio dedicado a la atención y cuidado de la salud de los animales de compañía. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas. Ofrecemos una amplia gama de servicios médicos y quirúrgicos, así como también servicios de grooming y alojamiento para mascotas. Nuestro objetivo es brindar atención de calidad a nuestros pacientes y a sus dueños, y ayudar a mantener la salud y el bienestar de sus mascotas.",
         "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS"
 },
 {
-    "key": 2 ,
+    "id": 2 ,
     "img": "https://drive.google.com/uc?export=view&id=1wg4Tf9ov64TjrmhFmMfs1y86105tX26T",
     "text" : "BAÑO Y PELUQUERÍA",
     "description" : "El servicio de grooming de mascotas es un lugar donde se proporcionan cuidados especializados para la higiene y el bienestar de las mascotas. Contamos con profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas, que se encargan de proporcionar una amplia gama de servicios de grooming para mantener la salud y la belleza de su mascota. Ofrecemos baños y peinados personalizados, corte de uñas, limpieza de oídos y tratamientos de belleza para diferentes tipos de mascotas. Nuestro objetivo es brindar un ambiente cálido y acogedor para que su mascota se sienta cómoda y relajada durante el proceso de grooming. Además, nos esforzamos por utilizar productos de alta calidad y métodos suaves para garantizar la seguridad y el bienestar de su mascota durante todo el proceso.",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS"
 },
 {
-    "key": 3 ,
+    "id": 3 ,
     "img": "https://drive.google.com/uc?export=view&id=1WJ6eUOWAK5kov1wvYXI65cghtJBV1jtc",
     "text" : "HOTEL FELINO",
     "description" : "El hotel felino es un servicio de alojamiento para gatos mientras sus dueños están de viaje o ausentes. Ofrecemos un ambiente cálido y acogedor para que los gatos se sientan como en casa, con habitaciones espaciosas y cómodas y un área de juegos al aire libre. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de gatos, que se encargan de proporcionar atención y cuidado personalizados para cada uno de nuestros huéspedes felinos. Además, ofrecemos servicios de alimentación y medicación para garantizar que su gato reciba todos los cuidados necesarios durante su estancia con nosotros. Nuestro objetivo es hacer que su gato se sienta cómodo y seguro durante su estancia en el hotel felino y proporcionarle a usted tranquilidad durante su ausencia.",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS"
 },
 {
-    "key": 4 ,
+    "id": 4 ,
     "img": "https://drive.google.com/uc?export=view&id=107PXnh_qNTFuAUS8_rTt2FCseGBnB5CG",
     "text" : "VACUNACIÓN",
     "description" : "El servicio de vacunación de mascotas es un lugar donde se proporcionan inmunizaciones esenciales para proteger a las mascotas de enfermedades graves y potencialmente mortales. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas, que se encargan de administrar las vacunas necesarias de acuerdo con las recomendaciones de los expertos en la salud animal. Ofrecemos una amplia gama de vacunas para diferentes tipos de mascotas, incluyendo perros, gatos, caballos y otros animales de compañía. Además, proporcionamos consejos y recomendaciones sobre cómo mantener a su mascota saludable y protegida contra enfermedades. Nuestro objetivo es ayudar a mantener la salud y el bienestar de su mascota y protegerla contra enfermedades graves.",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS"
 },
 {
-    "key": 5 ,
+    "id": 5 ,
     "img": "https://drive.google.com/uc?export=view&id=14UXWRMdZ3kpdrx9jpiuCCfuxjboLG4Wh",
     "text" : "LABORATORIO CLÍNICO",
     "description" : "El servicio de laboratorio clínico de mascotas es un lugar donde se realizan pruebas de laboratorio para detectar y diagnosticar enfermedades en las mascotas. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas, que se encargan de recoger y procesar muestras de tejidos y fluidos corporales para su análisis en el laboratorio. Ofrecemos una amplia gama de pruebas de laboratorio para diferentes tipos de mascotas, incluyendo perros, gatos, caballos y otros animales de compañía. Además, proporcionamos resultados de pruebas precisos y oportunos para ayudar a los médicos veterinarios a formular un diagnóstico preciso y a desarrollar un plan de tratamiento adecuado para su mascota. Nuestro objetivo es ayudar a mantener la salud y el bienestar de su mascota proporcionando resultados de pruebas confiables y de alta calidad.",
     "icon": "https://drive.google.com/uc?export=view&id=1XC-TJoMcvHQv5NiJZoL6LU_ifxB7I_zS"
 },
 {
-    "key": 6 ,
+    "id": 6 ,
     "img": "https://drive.google.com/uc?export=view&id=1yg31pT5AUQypmTLy5dIPAyjY1RMedlaA",
     "text" : "IDENTIFICADOR DE MASCOTAS",
     "description" : "El servicio de identificación de mascotas es un lugar donde se proporcionan soluciones de identificación para ayudar a localizar y proteger a las mascotas en caso de pérdida o robo. Contamos con un equipo de profesionales altamente capacitados y con amplia experiencia en el cuidado de mascotas, que se encargan de proporcionar diferentes opciones de identificación, como placas de identificación y etiquetas de identificación. Ofrecemos estos servicios para diferentes tipos de mascotas, incluyendo perros, gatos, caballos y otros animales de compañía. Además, proporcionamos asesoramiento y consejos sobre cómo proteger a su mascota en caso de pérdida o robo. Nuestro objetivo es ayudar a reunir a las mascotas con sus dueños y proteger su seguridad y bienestar.",
