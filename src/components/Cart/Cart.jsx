@@ -63,9 +63,8 @@ const CartShop = _ => {
         {total > 0 && 
         <h2 className="totalServ">TOTAL: {total}
         </h2>}
-        <ReactWhatsapp className='buttonWazza' number="57-319-678-8028" message={`Hola!Quisiera cotizar el servicio de  ${cart.map((item) => 
-          item.quantity + " " + item.title 
-        )} para $${total}`} > Cotizar el servicio </ReactWhatsapp>
+        <ReactWhatsapp className='buttonWazza' number="57-321-397-6755" message={`Hola!Quisiera cotizar el servicio de  ${cart.map((item) => item.quantity + " " + item.text 
+        )} que por el momento arroja el valor de $${total}`} > Cotizar el servicio </ReactWhatsapp>
         <Footer/>
     </>
 )

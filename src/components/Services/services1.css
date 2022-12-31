@@ -85,7 +85,7 @@
 }
 .ButtonShop:hover{
   transform: scale(.8);
-  transition: all .4s;
+  transition: all 4.s;
   cursor: pointer;
 }
   @media (min-width:765px){
