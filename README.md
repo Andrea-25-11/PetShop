@@ -1,70 +1,43 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+READ ME
 
-## Available Scripts
+El presente proyecto tiene la finalidad de desarrollar la página web del PetShop-Veterinaria Perros & Gatos una empresa dedicada a la prestación de servicios para mascotas especialmente gatos y perros y a la venta de insumos como comida, arenas, medicina, juguetes entre otros para los mismos. 
 
-In the project directory, you can run:
+![AVISO NUEVO GATOS Y PERROS 170-1](https://user-images.githubusercontent.com/107644961/210124257-60642d6b-e7bd-4229-9318-2f6130022647.png)
 
-### `npm start`
+Para tal finalidad se dio uso a herramientas como React y como editor de código Visual Studio Code, así mismo se manejo el mobile first y creación de componentes para la creación de la página.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La idea principal de la página se desarrollo en figma siendo el prototipo el siguiente:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![1](https://user-images.githubusercontent.com/107644961/210124393-07398bb5-af91-4ae0-b9f0-2e6ac8893add.png)
 
-### `npm test`
+Para desarrollar la pagina se planteo la realización de diferentes componentes 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![2](https://user-images.githubusercontent.com/107644961/210124485-868cfa90-7933-44aa-a8d1-644836c11aa1.png)
 
-### `npm run build`
+Dentro de cada carpeta se creo el respectivo documento jsx y css para aplicar los estilos correspondientes.
+Así mismo se descargaron diferentes dependencias para logras el correcto depsliegue de la plataforma. Entre ellas destaco redux para la creación del carrito de comprar, react whatsapp para conectar con el whatsapp del Pet Shop y remix icon para importar librerias de iconos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+En total estas fueron las dependencias a utilizar en el proyecto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![4](https://user-images.githubusercontent.com/107644961/210124577-d357e679-022d-4486-8c34-59df74f6e484.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+El componente principal de trataba del Home.
+Es este componente se importaron la mayoría de los otros componentes, siendo la primera parte de él el importe de los otros componentes necesarios para armar el Home, entre ellos el Header, la bienvenida a la página, los cards de servicios, las marcas que se manejan en la tienda y los medios de contacto.
 
-### `npm run eject`
+![3](https://user-images.githubusercontent.com/107644961/210124521-a23cba4f-0513-4349-a38e-c84ef105846d.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Otro componente importante fue el de servicios, ya que en este se utilizaron arrays mediante un JSON para traer la informacion de cada uno de los productos.  En dicho Json se asigno un Id, una imagen de portada, un texto del servicio, la descripcion del servicio, un icono del carrito de compras, el precio y la cantidad los cuales serían llamado postreriormente mediante su mapeo en el componente del home y la página de servicios
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![5](https://user-images.githubusercontent.com/107644961/210124764-0db8a5a7-d50f-4960-a470-f88501418307.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+El cart también fue un componente importante, mediante ese se utilizaron dos hooks de react, como lo es el useSelector y el useDispatch, medainte estos se crearon unas constantes que permitieran general la sumatoria o resta de la cantidad de servicios que deseara el cliente.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Para el componente primero se  creo el componente mediante el mapeo del JSON y mediente la creación de botones se agrego el evento de Onclick sobre el de suma resta y eliminar frente al servicio escogido por el cliente. Así mismo se agrego una funcion que calcularía el total del valor de los serivicios escogidos por el cliente y un botón gracias a react whatsapp que permitiera redirigirse al whatsapp de la empresa. 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Por ultimo el componente reducer. el cual nos permite mediante funciones el añadir, decrementar, eliminar los items teniendo en cuante la acción del cliente frente a los botones creados en el componente card.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![6](https://user-images.githubusercontent.com/107644961/210125331-a3a2cf77-ccf5-4acd-a15f-ae6bd9b75c00.png)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para la aplicación de estilos no se hizo uso de ninguna librería, todos fueron aplicados según necesidad, así mismo las animaciones.
